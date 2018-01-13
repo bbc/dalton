@@ -1,0 +1,90 @@
+$grey: #ccc;
+$black: #000;
+$almost-white: #f1f1f1;
+$chequered: #efefef;
+
+.dalton {
+    margin-left: 20%;
+    padding: 16px;
+
+    &__fullscreen {
+        margin-left: 0;
+    }
+
+    &__container {
+        background-image: linear-gradient(45deg, $chequered 25%, transparent 25%), linear-gradient(-45deg, $chequered 25%, transparent 25%), linear-gradient(45deg, transparent 75%, $chequered 75%), linear-gradient(-45deg, transparent 75%, $chequered 75%);
+        background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+        background-size: 20px 20px;
+        min-height: 300px;
+    }
+
+    &__button {
+        background-color: inherit;
+        border: 0;
+        color: inherit;
+        cursor: pointer;
+        display: inline-block;
+        outline: 0;
+        overflow: hidden;
+        padding: 8px 16px;
+        text-align: left;
+        text-decoration: none;
+        vertical-align: middle;
+        white-space: normal;
+
+        &:hover {
+            background-color: $grey;
+            color: $black;
+        }
+
+        &-hidden {
+            display: none;
+        }
+    }
+}
+
+.sidebar {
+    background-color: $almost-white;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    width: 20%;
+    z-index: 1;
+
+    &__hidden {
+        display: none;
+    }
+
+    &__item {
+        border: 0;
+        display: block;
+        float: none;
+        margin-top: 0;
+        outline: none;
+        padding: 3px 24px;
+        text-align: left;
+        white-space: normal;
+        width: 100%;
+    }
+
+    &__button {
+        background-color: inherit;
+        border: 0;
+        color: inherit;
+        cursor: pointer;
+        display: inline-block;
+        outline: 0;
+        overflow: hidden;
+        padding: 8px 16px;
+        text-align: left;
+        text-decoration: none;
+        vertical-align: middle;
+        white-space: normal;
+        width: 100%;
+
+        &:hover {
+            background-color: $grey;
+            color: $black;
+        }
+    }
+}

@@ -27,3 +27,69 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif; }
+
+.dalton {
+  margin-left: 20%;
+  padding: 16px; }
+  .dalton__fullscreen {
+    margin-left: 0; }
+  .dalton__container {
+    background-image: linear-gradient(45deg, #efefef 25%, transparent 25%), linear-gradient(-45deg, #efefef 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #efefef 75%), linear-gradient(-45deg, transparent 75%, #efefef 75%);
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+    background-size: 20px 20px;
+    min-height: 300px; }
+  .dalton__button {
+    background-color: inherit;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    overflow: hidden;
+    padding: 8px 16px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: normal; }
+    .dalton__button:hover {
+      background-color: #ccc;
+      color: #000; }
+    .dalton__button-hidden {
+      display: none; }
+
+.sidebar {
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  width: 20%;
+  z-index: 1; }
+  .sidebar__hidden {
+    display: none; }
+  .sidebar__item {
+    border: 0;
+    display: block;
+    float: none;
+    margin-top: 0;
+    outline: none;
+    padding: 3px 24px;
+    text-align: left;
+    white-space: normal;
+    width: 100%; }
+  .sidebar__button {
+    background-color: inherit;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    overflow: hidden;
+    padding: 8px 16px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: normal;
+    width: 100%; }
+    .sidebar__button:hover {
+      background-color: #ccc;
+      color: #000; }
