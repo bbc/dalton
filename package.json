@@ -18,6 +18,6 @@
     "eject": "react-scripts eject"
   },
   "bin": {
-    "dalton": "./src/bin/dalton"
+    "dalton": "./src/bin/dalton.js"
   }
 }

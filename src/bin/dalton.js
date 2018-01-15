@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-require('../../src/index');
+require('../../node_modules/react-scripts/scripts/start.js');
